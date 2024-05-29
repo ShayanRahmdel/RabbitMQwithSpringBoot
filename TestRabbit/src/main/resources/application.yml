@@ -1,0 +1,9 @@
+rabbitmq:
+  exchanges:
+    default:
+      type: topic
+  bindings:
+    microservice1:
+      routingKey: routingKeyMicroservice1
+    microservice2:
+      routingKey: routingKeyMicroservice2
